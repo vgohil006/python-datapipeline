@@ -2,22 +2,22 @@
 
 
 
-### Imports Data from S3 Bucket, loads it into an Oracle Source Database
-### Initiates AWS DMS Service for Data Migration to PostgreSQL Database
-### Performs the Data transformations (create staging, info and mart schemas)
-### Logs all steps of the process and triggers an email with loginfo once process is complete.
+Imports Data from S3 Bucket, loads it into an Oracle Source Database
+Initiates AWS DMS Service for Data Migration to PostgreSQL Database
+Performs the Data transformations (create staging, info and mart schemas)
+Logs all steps of the process and triggers an email with loginfo once process is complete.
 
 
 
-## How to setup the pipeline on a server
+###### How to setup the pipeline on a server
 
 On the data server, the data_prep_env virtual environment needs to be setup as follows:
 
 1. Use SSH to connect to your server
 
 2. Update the packages list  and install the pre-requisites
-   sudo apt update
-   sudo apt install software-properties-common
+   *sudo apt update
+   *sudo apt install software-properties-common
 
 3. Add the deadsnakes PPS to the sources list
    sudo add-apt-repository pps:deadsnakes/ppa
