@@ -1,5 +1,4 @@
 # A Python Data Pipeline Feed.
-=============
 
 
 - Imports Data from S3 Bucket, loads it into an Oracle Source Database
