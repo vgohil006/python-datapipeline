@@ -1,5 +1,5 @@
 # A Python Data Pipeline Feed.
-================================
+=============================
 
 
 - Imports Data from S3 Bucket, loads it into an Oracle Source Database
@@ -83,5 +83,7 @@ On the data server, the data_prep_env virtual environment needs to be setup as f
      + cd /opt/<dirname>/data-etl/data_prep_env
      + pip list
 
-  
+16. Copy the zip package from your local directory to the data_prep_env directory and unzip the package.
+      + cp /home/local/<username>/data_prep_v1_2.zip /opt/<dirname>/data-etl/data_prep_env
+      + unzip data_prep_v1_2.zip
 
